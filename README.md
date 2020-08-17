@@ -1,9 +1,9 @@
 # performanceanalytics-api
 #saveMetrics API: "https://perfanalyticsapi.herokuapp.com/perfanalytics/saveMetrics"
-    saveMetrics api is used for saving the browser performance data (ttfb, domLoad, windowLoadEvent, fcp)
+    #saveMetrics api is used for saving the browser performance data (ttfb, domLoad, windowLoadEvent, fcp)
     
- Sample Request: POST https://perfanalyticsapi.herokuapp.com/perfanalytics/saveMetrics
- Request Body:
+ #Sample Request: POST https://perfanalyticsapi.herokuapp.com/perfanalytics/saveMetrics
+ #Request Body:
                {
               "id": "",
               "date":"2020-08-10",
