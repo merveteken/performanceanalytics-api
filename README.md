@@ -2,7 +2,7 @@
 #saveMetrics API: "https://perfanalyticsapi.herokuapp.com/perfanalytics/saveMetrics"
     <br />saveMetrics api is used for saving the browser performance data (ttfb, domLoad, windowLoadEvent, fcp)
     
- <br />Sample Request: POST https://perfanalyticsapi.herokuapp.com/perfanalytics/saveMetrics
+ <br /><br />Sample Request: POST https://perfanalyticsapi.herokuapp.com/perfanalytics/saveMetrics
  <br />Request Body:
                {
               "id": "",
@@ -23,12 +23,12 @@
     "windowLoadEvent": 1212
 }
 
-#getMetrics API:  "https://perfanalyticsapi.herokuapp.com/perfanalytics/getMetrics"
-    getMetrics api is used for getting data with filtered date.
+<br />#getMetrics API:  "https://perfanalyticsapi.herokuapp.com/perfanalytics/getMetrics"
+    <br />getMetrics api is used for getting data with filtered date.
     
     
-Sample Request: GET https://perfanalyticsapi.herokuapp.com/perfanalytics/getMetrics?startDate=2020-07-07&endDate=2020-08-19
-Response: 
+<br />Sample Request: GET https://perfanalyticsapi.herokuapp.com/perfanalytics/getMetrics?startDate=2020-07-07&endDate=2020-08-19
+<br />Response: 
 [
     {
         "id": 7,
