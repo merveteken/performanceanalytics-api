@@ -12,7 +12,7 @@
               "ttfb":43344,
               "windowLoadEvent":1212
               }
-Response:
+ Response:
 
   {
     "id": 12,
