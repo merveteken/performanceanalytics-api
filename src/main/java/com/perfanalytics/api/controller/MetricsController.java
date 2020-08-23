@@ -18,7 +18,7 @@ public class MetricsController {
     @Autowired
     MetricsService metricsService;
 
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = {"http://localhost:4200", "https://perfanalytics-ui.herokuapp.com"})
     @PostMapping(value = "/saveMetrics")
     public ResponseEntity<Metrics> saveMetrics(@RequestBody Metrics metrics) {
         Metrics metric = metricsService.saveMetrics(metrics);
@@ -26,7 +26,7 @@ public class MetricsController {
 
     }
 
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = {"http://localhost:4200", "https://perfanalytics-ui.herokuapp.com"})
     @GetMapping(value = "/getMetrics")
     public ResponseEntity<List<Metrics>> getMetrics(@RequestParam String startDate, @RequestParam String endDate) {
         List<Metrics> metricsList = null;
